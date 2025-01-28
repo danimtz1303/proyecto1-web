@@ -1,0 +1,36 @@
+body{
+background-color: rgb(255, 255, 255);
+}
+
+img{width: 250px;
+    height: 500;
+}
+#img2{width: 500px;
+    height: 500px;
+    border-radius: 100px;
+}
+
+nav{
+    background-color: rgb(8, 0, 59);
+    color:aliceblue;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+li{
+list-style:none;
+}
+
+nav ul li{
+    display: inline;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+a{
+    color: white;
+    text-decoration: none; /*quita el subrrayado*/
+}
+nav ul li a{
+    padding: 40px;
+}
